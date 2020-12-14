@@ -44,31 +44,7 @@ Validate that names was added to contacts list
 
 
 Scroll table with contacts
+    FOR    ${i}    IN RANGE    15
         Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
         Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
-        Execute Javascript   document.querySelector('${BASE_URL_SCROLL_CSS}').scrollTop = 10000;
-        Sleep  1s
+    END
