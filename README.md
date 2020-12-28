@@ -2,6 +2,9 @@
 
 A simple test using Robot Framework and Python.
 
+<img alt="" src="https://imgur.com/xpEiZNx.gif"/>
+
+
 # Requirements and Installation
 * python3
 * pip
